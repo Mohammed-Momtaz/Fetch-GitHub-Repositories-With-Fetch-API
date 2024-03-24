@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.repos-container {
+    width: 80%;
+    margin: 20px auto;
+}
+.get-repos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+.get-repos input {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.get-repos input:focus {
+    outline-color: #f14e32;
+}
+.get-repos button {
+    width: 120px;
+    color: #f14e32;
+    border: 1px solid #f14e32;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bold;
+}
+.get-repos button:hover {
+    background-color: #f14e32;
+    color: white;
+}
+.show-data {
+    padding: 20px;
+    background-color: #eee;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.popup {
+    width: fit-content;
+    background-color: #f14e32;
+    padding: 30px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: fixed;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.2s ease-in;
+    opacity: 0;
+}
+.popup p {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.main-div:last-child {
+    margin-bottom: 0;
+}
+.main-div p {
+    font-weight: bold;
+    margin: 0;
+}
+.main-div div span {
+    margin-right: 20px;
+    background-color: rgb(255, 187, 39);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main-div div a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(55, 55, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
